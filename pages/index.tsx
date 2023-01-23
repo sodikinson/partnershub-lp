@@ -53,7 +53,7 @@ export default function Home() {
             <Footer />
 
             <FloatingWhatsApp
-                phoneNumber="62 81213354221"
+                phoneNumber="6281213354221"
                 accountName="Cindy"
                 darkMode={true}
                 placeholder="Tulis pesan ..."
