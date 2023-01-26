@@ -3,14 +3,28 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "standard-with-typescript"],
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "plugin:react/jsx-runtime"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": ["tsconfig.json"]
   },
   "plugins": ["react"],
   "rules": {
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "quotes": "off",
+    "@typescript-eslint/quotes": "warn",
+    "semi": "off",
+    "@typescript-eslint/semi": "warn",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": "warn",
+    "indent": "off",
+    "@typescript-eslint/indent": "warn"
   }
 }
