@@ -10,13 +10,15 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import TagManager from "react-gtm-module";
 
-export default function App({ Component, pageProps }: AppProps) {
-    const tagManagerArgs = {
-        gtmId: "GTM-56MHVKB",
-    };
-
+const GTM_ID = "GTM-56MHVKB";
+const tagManagerArgs = {
+    gtmId: GTM_ID,
+};
+if (process.browser) {
     TagManager.initialize(tagManagerArgs);
+}
 
+export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
