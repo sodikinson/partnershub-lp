@@ -6,7 +6,7 @@ export default function Document() {
             <Head>
                 <meta
                     name="description"
-                    content="Pembuatan badan usahanya (PT/CV/PT Perseorangan)
+                    content="Pembuatan badan usaha (PT/CV/PT Perseorangan)
 Penanganan laporan keuangan bulanan/tahunan
 Pembuatan Laporan SPT Pajak
 Laporan pajak bulanan/tahunan.

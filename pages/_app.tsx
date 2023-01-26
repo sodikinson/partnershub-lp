@@ -16,8 +16,15 @@ import "../styles/transactions-detail.css";
 import "../styles/navbar-log-in.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import TagManager from "react-gtm-module";
 
 export default function App({ Component, pageProps }: AppProps) {
+    const tagManagerArgs = {
+        gtmId: "GTM-56MHVKB",
+    };
+
+    TagManager.initialize(tagManagerArgs);
+
     return (
         <>
             <Head>
