@@ -67,6 +67,7 @@ export default function CompleteCheckout() {
                         href="https://api.whatsapp.com/send?phone=6281213354221&text=%F0%9F%A7%A7%20%F0%9F%A5%AE%20%20Halo%20Admin%20Cindy%2C%0ABoleh%20aku%20minta%20info%20terkait%20promo%20imleknya%20%3F"
                         target="_blank"
                         role="button"
+                        rel="noreferrer"
                     >
                         WhatsApp ke Admin
                     </a>

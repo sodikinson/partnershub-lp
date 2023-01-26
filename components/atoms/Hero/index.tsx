@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export default function Hero() {
     return (
@@ -28,6 +27,7 @@ export default function Hero() {
                             type="button"
                             target="_blank"
                             className="btn btn-primary btn-lg px-4 gap-3"
+                            rel="noreferrer"
                         >
                             Kontak
                         </a>

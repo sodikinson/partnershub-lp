@@ -8,7 +8,7 @@ export default function WhyUs() {
                     Kenapa Pilih
                     <br />{" "}
                     <span className="text-primary">
-                        Partner's Hub Indonesia ?
+                        Partners Hub Indonesia ?
                     </span>
                 </h2>
                 <div className="row gap-lg-0 gap-4" data-aos="fade-up">

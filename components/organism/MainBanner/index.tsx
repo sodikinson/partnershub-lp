@@ -16,7 +16,7 @@ export default function MainBanner() {
                             <span className="underline-blue"> </span>{" "}
                             <br className="d-sm-block d-none" />{" "}
                             <span className="underline-blue">
-                                Partner's Hub Indonesia
+                                Partners Hub Indonesia
                             </span>{" "}
                         </h1>
                         <p className="mt-30 mb-40 text-lg color-palette-1">
