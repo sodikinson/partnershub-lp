@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <Head>
-                <title>Partner's Hub Indonesia</title>
+                <title>Partners Hub Indonesia</title>
                 <meta property="og:title" content="Partner's Hub Indonesia" />
             </Head>
             <Component {...pageProps} />

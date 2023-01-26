@@ -25,6 +25,8 @@
     "space-before-function-paren": "off",
     "@typescript-eslint/space-before-function-paren": "warn",
     "indent": "off",
-    "@typescript-eslint/indent": "warn"
+    "@typescript-eslint/indent": "warn",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "warn"
   }
 }
