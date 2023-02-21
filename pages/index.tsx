@@ -5,7 +5,7 @@ import MainBanner from "../components/organism/MainBanner";
 import TransactionStep from "../components/organism/TransactionStep";
 import Accordion from "../components/atoms/Accordion";
 import Pricing from "../components/atoms/Pricing";
-// import FeaturedGame from "../components/organism/FeaturedGame";
+import FeaturedGame from "../components/organism/FeaturedGame";
 import Reached from "../components/organism/Reached";
 import Story from "../components/organism/Story";
 import Footer from "../components/organism/Footer";
@@ -14,56 +14,56 @@ import Hero from "../components/atoms/Hero";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export default function Home() {
-    useEffect(() => {
-        AOS.init();
-    }, []);
-    return (
-        <>
-            {/* NAVBAR */}
-            <Navbar />
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <>
+      {/* NAVBAR */}
+      <Navbar />
 
-            {/* HEADER */}
-            <MainBanner />
+      {/* HEADER */}
+      <MainBanner />
 
-            {/* STORY */}
-            <Story />
+      {/* STORY */}
+      <Story />
 
-            {/* PRICING */}
-            <Pricing />
+      {/* PRICING */}
+      <Pricing />
 
-            {/* FETURED GAME */}
-            {/* <FeaturedGame /> */}
+      {/* FETURED GAME */}
+      <FeaturedGame />
 
-            {/* WHY US */}
-            <WhyUs />
+      {/* WHY US */}
+      <WhyUs />
 
-            {/* FEATURE */}
-            <TransactionStep />
+      {/* FEATURE */}
+      <TransactionStep />
 
-            {/* HERO */}
-            <Hero />
+      {/* HERO */}
+      <Hero />
 
-            {/* REACHED */}
-            <Reached />
+      {/* REACHED */}
+      <Reached />
 
-            {/* ACCORDION FAQ */}
-            <Accordion />
+      {/* ACCORDION FAQ */}
+      <Accordion />
 
-            {/* FOOTER */}
-            <Footer />
+      {/* FOOTER */}
+      <Footer />
 
-            <FloatingWhatsApp
-                phoneNumber="6281213354221"
-                accountName="Cindy"
-                darkMode={true}
-                placeholder="Tulis pesan ..."
-                statusMessage="🟢 Online"
-                chatMessage="😊 Hello, Ada yang bisa kami bantu ?"
-                allowEsc
-                allowClickAway
-                notification
-                notificationSound={true}
-            />
-        </>
-    );
+      <FloatingWhatsApp
+        phoneNumber="6281213354221"
+        accountName="Cindy"
+        darkMode={true}
+        placeholder="Tulis pesan ..."
+        statusMessage="🟢 Online"
+        chatMessage="😊 Hello, Ada yang bisa kami bantu ?"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound={true}
+      />
+    </>
+  );
 }
