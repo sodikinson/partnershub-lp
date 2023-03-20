@@ -7,7 +7,7 @@ export default function Pricing() {
 
       {/* PEMBUATAN PT */}
       <div className="container text-center py-5 ">
-        <h1 className="display-4">Pembuatan PT</h1>
+        <h1 className="display-4">Pendirian PT</h1>
       </div>
 
       <div className="container text-center rounded-xl">
@@ -25,8 +25,9 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
-
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>
                   <li className="p-2">NPWP</li>
@@ -60,6 +61,8 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>
@@ -102,6 +105,8 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>
@@ -130,7 +135,7 @@ export default function Pricing() {
       {/* PEMBUATAN CV */}
 
       <div className="container text-center py-5 mt-5">
-        <h1 className="display-4">Pembuatan CV</h1>
+        <h1 className="display-4">Pendirian CV</h1>
       </div>
 
       <div className="container text-center rounded-xl">
@@ -148,6 +153,8 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>
@@ -182,11 +189,12 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>
                   <li className="p-2">NPWP</li>
-
                   <li className="p-2">SKT Pajak</li>
                   <li className="p-2">Logo Perusahaan</li>
                   <li className="p-2">9 Feed Design instagram</li>
@@ -223,6 +231,8 @@ export default function Pricing() {
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
+                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
+                  <li className="p-2">Akun OSS RBA</li>
                   <li className="p-2">Akta</li>
                   <li className="p-2">SK</li>
                   <li className="p-2">NIB</li>

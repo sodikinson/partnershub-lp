@@ -6,7 +6,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "standard-with-typescript",
+    "airbnb",
     "plugin:react/jsx-runtime",
     "plugin:@next/next/recommended"
   ],

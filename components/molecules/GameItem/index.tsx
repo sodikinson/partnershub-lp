@@ -2,14 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface GameItemProps {
-  icon:
-    | "promo1"
-    | "promo2"
-    | "promo3"
-    | "promo4"
-    | "promo5"
-    | "promo6"
-    | "promo7";
+  icon: "promo1" | "promo2" | "promo3" | "promo4";
 }
 
 export default function GameItem(props: GameItemProps) {
@@ -20,7 +13,7 @@ export default function GameItem(props: GameItemProps) {
         <div className="blur-sharp">
           <Image
             className="thumbnail"
-            src={`/img/${icon}.jpeg`}
+            src={`/img/${icon}.png`}
             width={300}
             height={300}
             alt="update price"

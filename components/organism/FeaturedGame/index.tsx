@@ -5,7 +5,7 @@ export default function FeaturedGame() {
     <section className="featured-game mt-5 pt-50 pb-50">
       <div className="container-fluid">
         <h2 className="text-4xl fw-bold color-palette-1 text-danger mb-30">
-          Updated 2.2
+          Updated Feed
         </h2>
         <div
           className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4"
@@ -15,9 +15,6 @@ export default function FeaturedGame() {
           <GameItem icon="promo2" />
           <GameItem icon="promo3" />
           <GameItem icon="promo4" />
-          <GameItem icon="promo5" />
-          <GameItem icon="promo6" />
-          <GameItem icon="promo7" />
         </div>
       </div>
     </section>
