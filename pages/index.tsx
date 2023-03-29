@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import Navbar from "../components/organism/Navbar";
 import MainBanner from "../components/organism/MainBanner";
@@ -12,8 +12,11 @@ import Footer from "../components/organism/Footer";
 import WhyUs from "../components/organism/WhyUs";
 import Hero from "../components/atoms/Hero";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import Dialog from "../components/organism/Dialog";
 
 export default function Home() {
+  const [openModal, setOpenModal] = useState(false);
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -24,6 +27,8 @@ export default function Home() {
 
       {/* HEADER */}
       <MainBanner />
+
+      <Dialog />
 
       {/* STORY */}
       <Story />
