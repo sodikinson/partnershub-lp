@@ -9,23 +9,40 @@ import "../styles/navbar-log-in.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import TagManager from "react-gtm-module";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const GTM_ID = "GTM-56MHVKB";
 const tagManagerArgs = {
-    gtmId: GTM_ID,
+  gtmId: GTM_ID,
 };
 if (process.browser) {
-    TagManager.initialize(tagManagerArgs);
+  TagManager.initialize(tagManagerArgs);
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-    return (
-        <>
-            <Head>
-                <title>Partners Hub Indonesia</title>
-                <meta property="og:title" content="Partner's Hub Indonesia" />
-            </Head>
-            <Component {...pageProps} />
-        </>
-    );
+  const router = useRouter();
+
+  useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init("738246817999447"); // facebookPixelId
+        ReactPixel.pageView();
+
+        router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  }, [router.events]);
+
+  return (
+    <>
+      <Head>
+        <title>Partners Hub Indonesia</title>
+        <meta property="og:title" content="Partner's Hub Indonesia" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
