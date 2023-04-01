@@ -39,8 +39,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Partners Hub Indonesia</title>
-        <meta property="og:title" content="Partner's Hub Indonesia" />
+        <title>Selamat Datang di Partners Hub Indonesia</title>
+        <meta name="title" content="Selamat Datang di Partners Hub Indonesia" />
       </Head>
       <Component {...pageProps} />
     </>

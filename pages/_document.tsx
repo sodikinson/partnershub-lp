@@ -6,22 +6,32 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Pembuatan badan usaha (PT/CV/PT Perseorangan)
-Penanganan laporan keuangan bulanan/tahunan
-Pembuatan Laporan SPT Pajak
-Laporan pajak bulanan/tahunan.
-Pengurusan PKP
-Virtual Office dan masih banyak lagi
-Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia  yang urus sampai selesai ☺️ ."
-          key="desc"
+          content="Pembuatan badan usaha (PT/CV/PT Perseorangan) Penanganan laporan keuangan bulanan/tahunan Pembuatan Laporan SPT Pajak Laporan pajak bulanan/tahunan. Pengurusan PKP Virtual Office dan masih banyak lagi Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia yang urus sampai selesai ☺️ ."
         />
 
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://partnershub.co/" />
+        <meta
+          property="og:title"
+          content="Selamat Datang di Partners Hub Indonesia"
+        />
         <meta
           property="og:description"
-          content="Hei Pebisnis,
-Anda Fokus Bisnis Dan Naikin Omset Aja, Biar Kami Yang Urus Administrasi Bisnisnya..."
+          content="Pembuatan badan usaha (PT/CV/PT Perseorangan) Penanganan laporan keuangan bulanan/tahunan Pembuatan Laporan SPT Pajak Laporan pajak bulanan/tahunan. Pengurusan PKP Virtual Office dan masih banyak lagi Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia yang urus sampai selesai ☺️ ."
         />
         <meta property="og:image" content="/img/bannerhub.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://partnershub.co/" />
+        <meta
+          property="twitter:title"
+          content="Selamat Datang di Partners Hub Indonesia"
+        />
+        <meta
+          property="twitter:description"
+          content="Pembuatan badan usaha (PT/CV/PT Perseorangan) Penanganan laporan keuangan bulanan/tahunan Pembuatan Laporan SPT Pajak Laporan pajak bulanan/tahunan. Pengurusan PKP Virtual Office dan masih banyak lagi Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia yang urus sampai selesai ☺️ ."
+        />
+        <meta property="twitter:image" content="/img/bannerhub.png" />
 
         <meta
           name="facebook-domain-verification"

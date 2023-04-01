@@ -29,7 +29,6 @@ export default function Dialog() {
 
   return (
     <div className="text-center" id="dialog">
-      <button onClick={openModal}>Open Modal</button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -53,7 +52,7 @@ export default function Dialog() {
           />
 
           <a
-            href="https://wa.link/1xz9cs"
+            href="https://wa.link/b3we6k"
             type="submit"
             className="btn btn-primary "
           >
