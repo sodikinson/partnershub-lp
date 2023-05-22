@@ -6,37 +6,31 @@ export default function Pricing() {
       </h2>
 
       {/* PEMBUATAN PT */}
-      <div className="container text-center py-5 ">
+      {/* <div className="container text-center py-5 ">
         <h1 className="display-4">Pendirian PT</h1>
-      </div>
+      </div> */}
 
       <div className="container text-center rounded-xl">
         <div className="row row-cols-1 row-cols-md-3">
           <div className="col mb-4">
             <div className="card shadow-sm bg-light rounded">
               <div className="card-header bg-info text-white">
-                <h4>Basic</h4>
+                <h4>Startup Starter</h4>
               </div>
               <div className="card-body bg-white">
                 <h1 className="my-0 fw-normal">
-                  <span className="text-danger ">Rp 6.105.000</span> <br />
+                  <span className="text-danger ">Rp 3.700.000</span> <br />
                   <small className="text-muted text-muted text-sm text-decoration-line-through">
-                    Rp 6.500.000
+                    Rp 6.100.000
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
-                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
-                  <li className="p-2">Akun OSS RBA</li>
-                  <li className="p-2">Akta</li>
-                  <li className="p-2">SK</li>
-                  <li className="p-2">NIB</li>
-                  <li className="p-2">NPWP</li>
-                  <li className="p-2">SKT Pajak</li>
-                  <li className="p-2">Pembukuan Rekening Tabungan</li>
-                  <li>
-                    Laporan Keuangan 6 bulan Pembukuan & Free konsultasi
-                    pelaporan keuangan
-                  </li>
+                  <li className="p-2">Paket PT Perseorangan</li>
+                  <li className="p-2">NPWP & Perizinan OSS</li>
+                  <li className="p-2">FREE Virtual Office</li>
+                  <li className="p-2">FREE Konsultasi Bisnis</li>
+                  <li className="p-2">FREE Laporan Keuangan</li>
+                  <li className="p-2">FREE Konsultasi Perpajakan</li>
                 </ul>
                 <a
                   href="https://wa.link/urqzxj"
@@ -51,33 +45,25 @@ export default function Pricing() {
           <div className="col mb-4">
             <div className="card shadow-lg bg-white rounded">
               <div className="card-header bg-primary text-white">
-                <h4>Executive</h4>
+                <h4>Startup Pro</h4>
               </div>
               <div className="card-body bg-success-subtle">
                 <h1 className="my-0 fw-normal">
-                  <span className="text-danger "> Rp 8.880.000</span> <br />
+                  <span className="text-danger "> Rp 8.300.000</span> <br />
                   <small className="text-muted text-muted text-sm text-decoration-line-through">
-                    Rp 10.000.000
+                    Rp 12.500.000
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
-                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
-                  <li className="p-2">Akun OSS RBA</li>
-                  <li className="p-2">Akta</li>
-                  <li className="p-2">SK</li>
-                  <li className="p-2">NIB</li>
-                  <li className="p-2">NPWP</li>
-                  <li className="p-2">EFIN</li>
-                  <li className="p-2">SKT Pajak</li>
-                  <li className="p-2">Logo Perusahaan</li>
-                  <li className="p-2">Free PKP *Area Jabodetabek</li>
-                  <li className="p-2">9 Feed Design instagram</li>
-                  <li className="p-2">Pembukaan Rekening Tabungan</li>
-                  <li className="p-2">Virtual Office 1 Tahun</li>
-                  <li className="p-2">
-                    Laporan Keuangan 6 Bulan Pembukuan dan Free konsultasi
-                    pelaporan keuangan
-                  </li>
+                  <li className="p-2">Paket Lengkap Pendirian PT</li>
+                  <li className="p-2">NPWP & Perizinan OSS</li>
+                  <li className="p-2">FREE Virtual Office 1 Tahun</li>
+                  <li className="p-2">FREE Konsultasi Bisnis</li>
+                  <li className="p-2">FREE Laporan Keuangan</li>
+                  <li className="p-2">FREE Konsultasi Perpajakan</li>
+                  <li className="p-2">FREE Materi Marketing</li>
+                  <li className="p-2">Materi Social Media, DLL</li>
+
                   <li className="p-2">
                     Laporan Pajak 6 Bulan dan Free Konsultasi Perpajakan
                   </li>
@@ -95,30 +81,27 @@ export default function Pricing() {
           <div className="col mb-4">
             <div className="card shadow-sm bg-white rounded">
               <div className="card-header bg-info text-white">
-                <h4>Business</h4>
+                <h4>Startup Elite</h4>
               </div>
               <div className="card-body bg-light">
                 <h1 className="my-0 fw-normal">
-                  <span className="text-danger">Rp 8.325.000</span> <br />
+                  <span className="text-danger">Rp 10.900.000</span> <br />
                   <small className="text-muted text-sm text-decoration-line-through">
-                    Rp 9.000.000
+                    Rp 18.700.000
                   </small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4 text-start">
-                  <li className="p-2">Pengecekan dan Pemesanan Nama PT</li>
-                  <li className="p-2">Akun OSS RBA</li>
-                  <li className="p-2">Akta</li>
-                  <li className="p-2">SK</li>
-                  <li className="p-2">NIB</li>
-                  <li className="p-2">NPWP</li>
-                  <li className="p-2">EFIN</li>
-                  <li className="p-2">SKT Pajak</li>
-                  <li className="p-2">Pembukuan Rekening Tabungan</li>
-                  <li className="p-2">Virtual Office 1 Tahun</li>
-                  <li className="p-2">
-                    Laporan Keuangan 6 bulan Pembukuan & Free konsultasi
-                    pelaporan keuangan
-                  </li>
+                  <li className="p-2">Paket Lengkap Pendirian PT</li>
+                  <li className="p-2">NPWP & Perizinan OSS</li>
+                  <li className="p-2">FREE Konsultasi Bisnis</li>
+                  <li className="p-2">FREE Laporan Keuangan</li>
+                  <li className="p-2">FREE Konsultasi Perpajakan</li>
+                  <li className="p-2">FREE LOGO & Stempel</li>
+                  <li className="p-2">FREE Company Profile </li>
+                  <li className="p-2">FREE Website (Landing Page)</li>
+                  <li className="p-2">FREE Virtual Office 1 Tahun</li>
+                  <li className="p-2">FREE Materi Marketing</li>
+                  <li className="p-2">Materi Social Media, DLL</li>
                 </ul>
                 <a
                   href="https://wa.link/urqzxj"

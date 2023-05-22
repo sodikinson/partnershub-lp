@@ -45,9 +45,9 @@ export default function Dialog() {
         <form>
           <Image
             className="d-flex justify-content-center mb-5"
-            src="/img/promo.svg"
+            src="/img/newpromo.jpeg"
             width={345}
-            height={200}
+            height={320}
             alt="promotion banner"
           />
 

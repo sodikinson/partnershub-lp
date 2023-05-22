@@ -5,7 +5,7 @@ import MainBanner from "../components/organism/MainBanner";
 import TransactionStep from "../components/organism/TransactionStep";
 import Accordion from "../components/atoms/Accordion";
 import Pricing from "../components/atoms/Pricing";
-import FeaturedGame from "../components/organism/FeaturedGame";
+// import FeaturedGame from "../components/organism/FeaturedGame";
 import Reached from "../components/organism/Reached";
 import Story from "../components/organism/Story";
 import Footer from "../components/organism/Footer";
@@ -36,8 +36,8 @@ export default function Home() {
       {/* PRICING */}
       <Pricing />
 
-      {/* FETURED GAME */}
-      <FeaturedGame />
+      {/* FEATURED GAME */}
+      {/* <FeaturedGame /> */}
 
       {/* WHY US */}
       <WhyUs />
