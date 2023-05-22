@@ -52,7 +52,7 @@ export default function Dialog() {
           />
 
           <a
-            href="https://wa.link/b3we6k"
+            href="https://wa.link/5cm4a3"
             type="submit"
             className="btn btn-primary "
           >
