@@ -12,7 +12,7 @@ import TagManager from "react-gtm-module";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const GTM_ID = "GTM-56MHVKB";
+const GTM_ID = "GTM-KNVGF2XG";
 const tagManagerArgs = {
   gtmId: GTM_ID,
 };
