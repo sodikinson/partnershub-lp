@@ -20,8 +20,20 @@ if (process.browser) {
   TagManager.initialize(tagManagerArgs);
 }
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps): JSX.Element {
   const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url: URL) => {
+      window.gtag("event", "page_view", {
+        page_path: url,
+      });
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   useEffect(() => {
     import("react-facebook-pixel")

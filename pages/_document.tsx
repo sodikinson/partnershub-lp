@@ -1,9 +1,23 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
+const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
 export default function Document() {
   return (
     <Html>
       <Head>
+        <script async src={gtag} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `,
+          }}
+        />
         <meta
           name="description"
           content="Pembuatan badan usaha (PT/CV/PT Perseorangan) Penanganan laporan keuangan bulanan/tahunan Pembuatan Laporan SPT Pajak Laporan pajak bulanan/tahunan. Pengurusan PKP Virtual Office dan masih banyak lagi Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia yang urus sampai selesai ☺️ ."
@@ -77,6 +91,11 @@ export default function Document() {
           crossOrigin="anonymous"
         ></script>
       </Head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-LEWFYGVCZL"
+      ></script>
+
       <body>
         <Main />
         <NextScript />

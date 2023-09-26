@@ -2518,6 +2518,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/gtag.js@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.npmjs.org/@types/gtag.js/-/gtag.js-0.0.14.tgz"
+  integrity sha512-NcR9rf3B93ie5T086NIpXGTtoIJeOeQ14+IBIBwfNBztb175e/0gONc60ywUU4+f9dwctgz9L3I4h5Gs/hl31g==
+
 "@types/hast@^2.0.0":
   version "2.3.4"
   resolved "https://registry.npmjs.org/@types/hast/-/hast-2.3.4.tgz"
