@@ -25,10 +25,7 @@ export default function Document() {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://partnershub.co/" />
-        <meta
-          property="og:title"
-          content="Selamat Datang di Partners Hub Indonesia"
-        />
+        <meta property="og:title" content="Partners Hub Indonesia" />
         <meta
           property="og:description"
           content="Pembuatan badan usaha (PT/CV/PT Perseorangan) Penanganan laporan keuangan bulanan/tahunan Pembuatan Laporan SPT Pajak Laporan pajak bulanan/tahunan. Pengurusan PKP Virtual Office dan masih banyak lagi Kamu cukup fokus dengan bisnis kamu dan biarkan Partners Hub Indonesia yang urus sampai selesai ☺️ ."
